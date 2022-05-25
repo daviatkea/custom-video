@@ -2,9 +2,11 @@
 video {
   width: 100%;
   display: block;
+  opacity: .5;
 }
 
 .video-player {
+  opacity: 1;
 }
 
 .video-player-button {
@@ -17,4 +19,8 @@ video {
   padding: 0.5rem 1rem;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.playing .video-player-button {
+  background: lightgrey;
 }
